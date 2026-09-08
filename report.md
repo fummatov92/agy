@@ -71,6 +71,11 @@ Tizimda **5 bosqichli qat'iy xavfsizlik devori** o'rnatilgan:
 - Xatolik yoki nosozlik yuz berganda, AI hech qachon kodni darhol o'zgartirmaydi.
 - Avval muammoning aniq tashxisi va yechim varianti foydalanuvchiga taqdim etiladi, faqat foydalanuvchi aniq tasdiq berganidan so'nggina tahrir amalga oshiriladi.
 
+### 6. Rootless Docker Izolyatsiyasi (Rootless Container Architecture)
+- **Haqiqiy Holat:** Serverda Docker to'liq **Rootless** (`Security Options: rootless`) rejimida sozlangan.
+- **Xavfsizlik Kafolati:** Docker daemoni tizimning `root` huquqlarisiz, alohida foydalanuvchi muhitida (user namespace) ishlaydi.
+- **Container Breakout Himoyasi:** Hatto konteyner ichida dasturiy nosozlik sodir bo'lib, konteyner ichida `root` huquqi olinsa ham, u asosiy VPS operatsion tizimiga va serverning boshqa resurslariga chiqa olmaydi (Container Breakout xavfi bartaraf etilgan).
+
 ---
 
 ## 🧠 5. Mavjud Ishchi Maydonlar Xaritasi
