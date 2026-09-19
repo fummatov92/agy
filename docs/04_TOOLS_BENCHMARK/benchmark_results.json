@@ -1,0 +1,18 @@
+{
+  "tool_name": "ruff",
+  "tool_category": "Linters & AST Static Analysis",
+  "version": "0.16.8",
+  "test_date": "2026-09-19 19:22:02",
+  "files_scanned": 3,
+  "lines_scanned": 72,
+  "errors_detected": 36,
+  "errors_fixed_automatically": 24,
+  "remaining_manual_warnings": 12,
+  "syntax_validity": "100% VALID",
+  "scan_duration_ms": 264.43,
+  "fix_duration_ms": 75.83,
+  "total_execution_ms": 340.26,
+  "llm_token_cost": 0,
+  "tokens_saved_vs_llm": 2440,
+  "speedup_vs_llm": "10.3x"
+}

@@ -1,0 +1,405 @@
+[
+  {
+    "id": 1,
+    "title": "React Router va TanStack Router — Noldan Chuqur Takrorlash va Amaliyot",
+    "type": "takrorlash",
+    "tags": [
+      "react",
+      "router",
+      "tanstack",
+      "takrorlash"
+    ],
+    "status": "COMPLETED",
+    "created_at": "2026-09-02 20:51:49",
+    "source": "/home/fayzillo/Desktop/agy_tasks/learning_parking_lot",
+    "notes": ""
+  },
+  {
+    "id": 2,
+    "title": "JS/TS Refactor & Surgical Bug-Fixing Tool (debug fix & code refactor)",
+    "type": "yangi_bilim",
+    "tags": [
+      "js",
+      "refactor",
+      "bug-fixing",
+      "ast",
+      "debug-fix",
+      "agy-tool"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-13 08:48:46",
+    "source": "/home/fayzillo/Desktop/fayzillo-agy-tools",
+    "notes": "Deterministik AST va Lint orqali stacktrace topgan xatoni jarrohlik usulida auto-verify va rollback bilan 0 token sarflab tuzatish mexanizmi."
+  },
+  {
+    "id": 3,
+    "title": "MobileFaceNet ONNX 0-Token Biometrik Yuz Tanish",
+    "type": "yangi_bilim",
+    "tags": [
+      "face_recognition",
+      "biometrics",
+      "onnx",
+      "mobilefacenet",
+      "cpu"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-13 09:36:12",
+    "source": "/home/fayzillo/Desktop/agy_tasks/face_recognition_lab/",
+    "notes": "UltraFace va MobileFaceNet ONNX asosidagi CPU biometriya tizimi. 16 FPS, <50MB RAM, 0 token."
+  },
+  {
+    "id": 4,
+    "title": "agy-tool db-insight: 0-Token Database Schema, Slow Query and Index Diagnostic Module",
+    "type": "yechim_qidirish",
+    "tags": [
+      "database",
+      "tool",
+      "performance",
+      "postgres",
+      "sqlite"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-13 14:35:04",
+    "source": "/home/fayzillo/Desktop",
+    "notes": "Postgres va SQLite jadvallari, indeks samaradorligi va so'rovlar optimizatsiyasini 0-token bilan bajaruvchi avtonom modul"
+  },
+  {
+    "id": 5,
+    "title": "agy-tool git-flow: Autonomous CI/CD, Semantic Commit and Release Tool",
+    "type": "yechim_qidirish",
+    "tags": [
+      "git",
+      "ci-cd",
+      "release",
+      "automation"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-13 14:35:05",
+    "source": "/home/fayzillo/Desktop",
+    "notes": "Avtomatik testlar, linter tekshiruvi, semantik commit va relizlarni 1 ta buyruq orqali bajaruvchi vosita"
+  },
+  {
+    "id": 6,
+    "title": "agy-tool bot deploy (Atomik Qayta Ishga Tushirish va Rollback)",
+    "type": "yechim_qidirish",
+    "tags": [
+      "cli",
+      "bot",
+      "devops",
+      "rollback",
+      "safety"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-13 21:49:38",
+    "source": "sessiya_connector",
+    "notes": "Sintaksis tekshirish (node -c), log tekshirish va pm2 restart/reload amallarini bitta xavfsiz atomik pipeline va avtomatik rollback mexanizmiga birlashtiruvchi CLI vositasi. Xavfli deb topilgani sababli parking qilindi."
+  },
+  {
+    "id": 7,
+    "title": "Lab & Benchmark Boti Qoidasi (@verry_menegment_todo_bot)",
+    "type": "yechim_qidirish",
+    "tags": [
+      "lab_bot",
+      "architecture",
+      "rules"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-13 22:25:08",
+    "source": "/home/fayzillo/Desktop",
+    "notes": "Barcha yangi modullar, eksperimental arxitekturalar va og'ir benchmarklar uchun @verry_menegment_todo_bot rasmiy sinov maydoni etib belgilandi. Production botga o'zgartirish kiritishdan oldin lab botda sinovdan o'tkaziladi."
+  },
+  {
+    "id": 8,
+    "title": "Gibrid CLI + API Agent Arxitekturasi va RPM Yechimlari",
+    "type": "yangi_bilim",
+    "tags": [
+      "ai_agent",
+      "hybrid_architecture",
+      "gemini_api",
+      "rpm_management",
+      "tool_calling"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-14 17:44:16",
+    "source": "test_API_agent",
+    "notes": "API orqali ixtisoslashgan mikro-agentlar konveyeri (Parser -> Coder -> Reviewer -> Fixer), Function Calling vs File Bundle token sarfi (12.3K vs 253K), RPM cheklovini yengishning 5 ta yechimi (Round-robin key pool, 0-API local heuristics, parallel tool calling)."
+  },
+  {
+    "id": 9,
+    "title": "JWT 10-minutlik TTL + Sliding Window Refresh + Tasdiqlangan Email OTP orqali Reset Password xavfsizlik arxitekturasi",
+    "type": "yechim_qidirish",
+    "tags": [
+      "security",
+      "jwt",
+      "auth",
+      "otp",
+      "backend"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-15 22:16:04",
+    "source": "sessiya_connector",
+    "notes": "Fayzillo terminal orqali ulanib joriy qiladi. Backend auth.js da TOKEN_EXPIRY_SECONDS=600, Email OTP bilan reset password va botda /resetpassword komandasi kutilmoqda."
+  },
+  {
+    "id": 10,
+    "title": "Cross-Bot Watchdog & Mutual Emergency Alert (Asosiy va Zaxira botlar o'zaro monitoringi)",
+    "type": "yechim_qidirish",
+    "tags": [
+      "monitoring",
+      "watchdog",
+      "telegram",
+      "failover",
+      "high_availability"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-15 22:25:28",
+    "source": "sessiya_connector",
+    "notes": "Ikkala bot (15976 vs 15850) har 25 soniyada bir-birini /api/status orqali tekshiradi. Agar birortasi 2 marta ketma-ket javob bermasa (crash/offline), tirik qolgan bot darhol adminga (7463402937) favqulodda xabar yuboradi. Qayta tiklanganda recovery alert beriladi."
+  },
+  {
+    "id": 11,
+    "title": "hr_murojaat_standart_andozasi",
+    "type": "yangi_bilim",
+    "tags": [
+      "hr",
+      "vakansiya",
+      "murojaat",
+      "portfolio"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-16 06:14:07",
+    "source": "/home/fayzillo/Desktop",
+    "notes": "Fayzillo Ummatovning rasmiy HR murojaat andozasi va portfoliosi"
+  },
+  {
+    "id": 12,
+    "title": "telegram_mobile_ui_formatting_no_tables",
+    "type": "yangi_bilim",
+    "tags": [
+      "telegram",
+      "ui",
+      "mobile",
+      "formatting"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-16 17:18:17",
+    "source": "/home/fayzillo/Desktop",
+    "notes": "Telegram mobil ekrani uchun jadvallar taqiqlanadi, faqat toza vertikal kartochka formati ishlatilsin"
+  },
+  {
+    "id": 13,
+    "title": "telegram_mobile_ui_card_standard_rules",
+    "type": "yangi_bilim",
+    "tags": [
+      "telegram_ui",
+      "mobile_card",
+      "zero_tables",
+      "formatting_standard"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-16 17:19:34",
+    "source": "/home/fayzillo/Desktop",
+    "notes": "Har qanday Telegram hisoboti, ro'yxati va vakansiyalar faqat vertikal kartochka formatida beriladi. Jadvallar mutlaqo taqiqlanadi."
+  },
+  {
+    "id": 14,
+    "title": "3_bosqichli_avtonom_fix_va_self_healing_upgrade",
+    "type": "yechim_qidirish",
+    "tags": [
+      "architecture",
+      "self_healing",
+      "tool_upgrade",
+      "3_stage_fix",
+      "research"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-16 17:45:05",
+    "source": "/home/fayzillo/Desktop",
+    "notes": "Server loyihalari uchun 3 bosqichli avtomatlashtirilgan fix: 1. Temp working test (sandbox), 2. Dev working version audit, 3. Prod deployment + auto-rollback. HR ga taqdim etishda faqat ZDES kabi tayyor mahsulotlar beriladi, bu esa ichki R&D sifatida rivojlantiriladi."
+  },
+  {
+    "id": 15,
+    "title": "commercial_ip_and_trade_secret_doctrine",
+    "type": "yangi_bilim",
+    "tags": [
+      "security",
+      "ip_protection",
+      "trade_secret",
+      "stealth_mode",
+      "product_secrecy"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-16 17:50:38",
+    "source": "/home/fayzillo/Desktop",
+    "notes": "Fayzillo Ummatovning barcha ichki AI arxitekturasi, Brains bazasi, agy-tool va tadqiqotlari xususiy tijorat siri (Trade Secret) hisoblanadi. Tashqi dunyoga (HR, mijozlar, suhbatlar) faqat standart stack va tayyor black-box mahsulot ko'rinishida beriladi, ichki 'know-how' mutlaqo oshkor qilinmaydi."
+  },
+  {
+    "id": 16,
+    "title": "generative_dynamic_ui_ai_driven_interfaces",
+    "type": "yangi_bilim",
+    "tags": [
+      "genui",
+      "generative_ui",
+      "dynamic_ui",
+      "intent_driven",
+      "future_web"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-16 18:00:46",
+    "source": "/home/fayzillo/Desktop",
+    "notes": "An'anaviy qotib qolgan CRUD UI davri tugamoqda. Kelajak: foydalanuvchi niyati (Intent) asosida AI tomonidan real-vaqtda generatsiya qilinadigan va boshqariladigan Dinamik Interfeyslar (GenUI / SDUI). JarvisOS Generative UI konsepsiyasi."
+  },
+  {
+    "id": 17,
+    "title": "wasm_generative_ui_client_engine",
+    "type": "yangi_bilim",
+    "tags": [
+      "wasm",
+      "webassembly",
+      "genui",
+      "client_engine",
+      "high_performance",
+      "state_machine"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-16 18:03:16",
+    "source": "/home/fayzillo/Desktop",
+    "notes": ""
+  },
+  {
+    "id": 18,
+    "title": "auto_hr_apply_telethon_userbot_safety_pipeline",
+    "type": "yechim_qidirish",
+    "tags": [
+      "userbot",
+      "telethon",
+      "auto_apply",
+      "hr",
+      "anti_ban",
+      "smart_delay",
+      "smart_matching"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-16 18:27:15",
+    "source": "/home/fayzillo/Desktop",
+    "notes": ""
+  },
+  {
+    "id": 19,
+    "title": "fayzillo_education_bootcamp_c_python_oop",
+    "type": "yangi_bilim",
+    "tags": [
+      "resume"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-18 17:41:45",
+    "source": "/home/fayzillo/Desktop",
+    "notes": "Fayzillo Ummatov rezyumesi Ta'lim bo'limi: Bootcamp Foundation C dasturlash tili va Python OOP bosqichida o'qiganligi qat'iy saqlandi."
+  },
+  {
+    "id": 20,
+    "title": "Brains I/O — Bare-Metal Binary Direct Storage & io_uring Kernel-Bypass Architecture",
+    "type": "yechim_qidirish",
+    "tags": [
+      "zero_copy"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-18 19:21:20",
+    "source": "/home/fayzillo/Desktop",
+    "notes": "Zero-copy binary stream storage, Linux io_uring / O_DIRECT, FlatBuffers serialization, In-memory Radix index va Dual-Layer (Fast-Path <0.1ms + Deep-Path Semantic Graph) arxitekturasi."
+  },
+  {
+    "id": 21,
+    "title": "Frontend Architecture — Vertical Slice (src/features) & Zero-Latency Socket-to-ReactQuery Sync",
+    "type": "yangi_bilim",
+    "tags": [
+      "react_query"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-18 19:21:23",
+    "source": "/home/fayzillo/Desktop",
+    "notes": "src/features modul izolyatsiyasi, soket eventlarida qc.setQueryData orqali HTTP requestlarsiz togridan-togri in-memory kesh mutatsiyasi, useRef+setTimeout typing throttle latch-barrier va client-side differential filtering."
+  },
+  {
+    "id": 22,
+    "title": "Clean Backend Patterns — fileStorages Factory, Swagger Isolation & Reflexive Prisma Helpers",
+    "type": "yangi_bilim",
+    "tags": [
+      "prisma"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-18 19:21:25",
+    "source": "/home/fayzillo/Desktop",
+    "notes": "fileStorages Multer universal factory funksiyasi, Swagger dekoratorlarini alohida fayllarga izolyatsiya qilish, Prisma dinamik model refleksiyasi (prisma[modelName].findFirst) va xotiradagi taymerli In-Memory CacheService."
+  },
+  {
+    "id": 23,
+    "title": "Render NestJS Worker & Multi-AGY WebSocket Bridge (Distributed Agent Node)",
+    "type": "yechim_qidirish",
+    "tags": [
+      "render",
+      "nestjs",
+      "websocket",
+      "agy_cli",
+      "multi_account",
+      "distributed_agents",
+      "auto_deploy"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-18 19:37:04",
+    "source": "Telegram Bot Chat & Render Architecture",
+    "notes": "Render.com Free planda NestJS WebSocket Gateway orqali ishlovchi masofaviy AGY Worker Node. GitHub (fummatov92) orqali avtomatik deploy. Ephemeral xotirada multi-account tokenlarini /tmp profilida rotatsiya qilish va VPS Core Engine bilan doimiy keep-alive WebSocket aloqasi."
+  },
+  {
+    "id": 24,
+    "title": "Render.com REST API Autonomous Orchestrator (Token-Based Deploy, Env Management & Self-Healing)",
+    "type": "yechim_qidirish",
+    "tags": [
+      "render_api",
+      "devops",
+      "orchestrator",
+      "auto_deploy",
+      "self_healing",
+      "cloud_lab"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-18 19:39:48",
+    "source": "Render REST API & JarvisOS Remote Worker Architecture",
+    "notes": "Render Access Token (rnd_...) orqali xizmatlarni avtomatik yaratish (POST /services), deploylarni boshqarish (POST /deploys), Env vars yangilash (PUT /env-vars), xatolik loglarini o'qish (GET /logs) va buzilgan holatlarni avtonom qayta tiklash (Self-Healing CI/CD Pipeline)."
+  },
+  {
+    "id": 25,
+    "title": "Autonomous Developer Agentic Platform — End-to-End Intake to Production Pipeline",
+    "type": "yechim_qidirish",
+    "tags": [
+      "platform",
+      "agentic",
+      "orchestrator",
+      "multi_model",
+      "gemini_claude_gpt",
+      "startup",
+      "pipeline"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-19 17:18:52",
+    "source": "Fayzillo Startup Blueprint (Bot, Web, Custom Worker Spaces)",
+    "notes": "Gemini Pro (2M context & Multimodal) + Claude 3.5 Sonnet (Deep Coding) + GPT-4o/o1 (Orchestration & Reasoning). Mijozdan buyurtma olishdan tortib, arxitektura, kodlash, testlash va Render/VPS da prodga topshirishgacha bo'lgan to'liq avtonom agentlar armiyasi."
+  },
+  {
+    "id": 26,
+    "title": "Telegram Bot Connector Prompt Deduplication & First-Token ROI Optimization",
+    "type": "yechim_qidirish",
+    "tags": [
+      "token_roi",
+      "prompt_engineering",
+      "first_token",
+      "telegram_connector",
+      "context_optimization",
+      "edge_cases"
+    ],
+    "status": "PENDING",
+    "created_at": "2026-09-19 19:54:09",
+    "source": "/home/fayzillo/Desktop/sessiya_connector/bot/bot.js",
+    "notes": "GEMINI.md va bot.js o'rtasidagi takroriy tizim qoidalarini bartaraf etish orqali har bir so'rovda ~1,800 token (35% kontekst) tejash arxitekturasi. Laboratoriyada 5 ta kutilmagan use-case (xotira kesilishi, live message uzilishi, subagentlar va mobil format) tahlil qilingan. Xulosa: bot.js da faqat 3-4 qatorlik ixcham yorliq ([SOURCE: TELEGRAM_BOT], [STEP-BY-STEP REPORTING], [LIVE_DISPATCH]) qoldirish, qolgan barcha doimiy qoidalarni esa GEMINI.md orqali ta'minlash."
+  }
+]

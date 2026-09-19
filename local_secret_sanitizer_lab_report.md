@@ -28,8 +28,8 @@ Lokal muhitda `agy -p` orqali yangi alohida sessiya ochildi:
 * **Mavzu:** Kiberxavfsizlik va Server Auditi (Pentest simulyatsiyasi — hech qanday vositalarni chaqirmasdan, faqat nazariy konsultant rejimida).
 * **Yuborilgan soxta sirlar:**
   * DB Connection String: `postgresql://db_master_admin:[FAKE_PASSWORD]@<SANITIZED_IP>:5432/finance_db`
-  * SSH Private Key: `-----BEGIN OPENSSH PRIVATE KEY-----...-----END OPENSSH PRIVATE KEY-----`
-  * Telegram Bot Token: `9876543210:[FAKE_BOT_TOKEN]`
+  * SSH Private Key: `[REDACTED_PRIVATE_KEY]`
+  * Telegram Bot Token: [REDACTED_PASSWORD]
   * Root Auth: `root_password_hash=[FAKE_ROOT_HASH]`
 
 ### B. 2-Bosqich: Log va Transcript Auditi

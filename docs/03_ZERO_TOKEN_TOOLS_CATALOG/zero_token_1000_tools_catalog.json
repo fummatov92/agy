@@ -1,0 +1,3842 @@
+[
+  {
+    "id": 1,
+    "name": "tree-sitter",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "AST Parsing",
+    "runtime": "C/Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Universal incremental parser generator for multi-language AST extraction",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "ast parsing",
+      "c/rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "ast-grep",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "AST Search",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Fast and polyglot tool for code searching, linting and rewriting at AST level",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "ast search",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "babel-parser",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "AST Parsing",
+    "runtime": "JavaScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "JavaScript/TypeScript AST parser for syntax analysis without LLM",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "ast parsing",
+      "javascript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "swc",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "AST Parsing",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Super-fast TypeScript/JavaScript compiler and AST transformer written in Rust",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "ast parsing",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "oxc",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "AST Parsing",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Suite of high-performance JS/TS tooling including parser, minifier and linter",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "ast parsing",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "acorn",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "AST Parsing",
+    "runtime": "JavaScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Small, fast JavaScript AST parser implemented in JavaScript",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "ast parsing",
+      "javascript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "libcst",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "CST Transformation",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Concrete Syntax Tree parser and serializer for Python code transformation",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "cst transformation",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "antlr4",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "Grammar Parsing",
+    "runtime": "Java/C++/Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Powerful parser generator for reading, processing, executing, or translating structured text",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "grammar parsing",
+      "java/c++/python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "pycln",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "Import Cleanup",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Cleans up unused Python imports based on AST analysis",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "import cleanup",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "rosetta",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "Cross-AST",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Polyglot AST analyzer for cross-language syntax queries",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "cross-ast",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "ruff",
+    "category": "02 Linters And Static Analysis",
+    "subcategory": "Static Analysis",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Extremely fast Python linter and code formatter written in Rust replacing 40+ plugins",
+    "tags": [
+      "02_linters_and_static_analysis",
+      "static analysis",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "biome",
+    "category": "02 Linters And Static Analysis",
+    "subcategory": "Linter/Formatter",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Ultra-fast toolchain for web projects: formatting, linting and imports",
+    "tags": [
+      "02_linters_and_static_analysis",
+      "linter/formatter",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "eslint",
+    "category": "02 Linters And Static Analysis",
+    "subcategory": "Linting",
+    "runtime": "JavaScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Pluggable JavaScript/TypeScript static code analyzer",
+    "tags": [
+      "02_linters_and_static_analysis",
+      "linting",
+      "javascript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "mypy",
+    "category": "02 Linters And Static Analysis",
+    "subcategory": "Type Checking",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Optional static type checker for Python",
+    "tags": [
+      "02_linters_and_static_analysis",
+      "type checking",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "pyright",
+    "category": "02 Linters And Static Analysis",
+    "subcategory": "Type Checking",
+    "runtime": "TypeScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Fast type checker for Python built on node",
+    "tags": [
+      "02_linters_and_static_analysis",
+      "type checking",
+      "typescript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "clippy",
+    "category": "02 Linters And Static Analysis",
+    "subcategory": "Linting",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Collection of lints to catch common mistakes and improve Rust code",
+    "tags": [
+      "02_linters_and_static_analysis",
+      "linting",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "golangci-lint",
+    "category": "02 Linters And Static Analysis",
+    "subcategory": "Linting",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Fast Go linters runner with parallel execution and caching",
+    "tags": [
+      "02_linters_and_static_analysis",
+      "linting",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "shellcheck",
+    "category": "02 Linters And Static Analysis",
+    "subcategory": "Shell Linting",
+    "runtime": "Haskell",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Static analysis tool for shell scripts catching syntax bugs",
+    "tags": [
+      "02_linters_and_static_analysis",
+      "shell linting",
+      "haskell",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "hadolint",
+    "category": "02 Linters And Static Analysis",
+    "subcategory": "Dockerfile Linting",
+    "runtime": "Haskell",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Dockerfile linter ensuring best practices and minimal image sizes",
+    "tags": [
+      "02_linters_and_static_analysis",
+      "dockerfile linting",
+      "haskell",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "sqlfluff",
+    "category": "02 Linters And Static Analysis",
+    "subcategory": "SQL Linting",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Dialect-flexible and configurable SQL linter and auto-formatter",
+    "tags": [
+      "02_linters_and_static_analysis",
+      "sql linting",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "trufflehog",
+    "category": "03 Sast And Security Scanners",
+    "subcategory": "Secret Scanning",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Finds credentials and secrets deep within git commit histories and files",
+    "tags": [
+      "03_sast_and_security_scanners",
+      "secret scanning",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "gitleaks",
+    "category": "03 Sast And Security Scanners",
+    "subcategory": "Secret Scanning",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Lightweight, fast secret scanner for git repositories and local directories",
+    "tags": [
+      "03_sast_and_security_scanners",
+      "secret scanning",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "semgrep",
+    "category": "03 Sast And Security Scanners",
+    "subcategory": "SAST",
+    "runtime": "OCaml/Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Lightweight static analysis tool for finding bugs, CVEs and enforcing code standards",
+    "tags": [
+      "03_sast_and_security_scanners",
+      "sast",
+      "ocaml/python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "trivy",
+    "category": "03 Sast And Security Scanners",
+    "subcategory": "Vulnerability Scan",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Comprehensive security scanner for container images, file systems and Git repos",
+    "tags": [
+      "03_sast_and_security_scanners",
+      "vulnerability scan",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "osv-scanner",
+    "category": "03 Sast And Security Scanners",
+    "subcategory": "Dependency Audit",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Vulnerability scanner powered by Google's OSV open source database",
+    "tags": [
+      "03_sast_and_security_scanners",
+      "dependency audit",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "grype",
+    "category": "03 Sast And Security Scanners",
+    "subcategory": "CVE Audit",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Vulnerability scanner for container images and filesystems",
+    "tags": [
+      "03_sast_and_security_scanners",
+      "cve audit",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "bandit",
+    "category": "03 Sast And Security Scanners",
+    "subcategory": "Python SAST",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Security oriented static analysis tool for Python code",
+    "tags": [
+      "03_sast_and_security_scanners",
+      "python sast",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "cargo-audit",
+    "category": "03 Sast And Security Scanners",
+    "subcategory": "Rust Security",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Audit Cargo.lock files for crates with security vulnerabilities",
+    "tags": [
+      "03_sast_and_security_scanners",
+      "rust security",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "pip-audit",
+    "category": "03 Sast And Security Scanners",
+    "subcategory": "Python Security",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Audits Python environments and requirements for known vulnerabilities",
+    "tags": [
+      "03_sast_and_security_scanners",
+      "python security",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "detect-secrets",
+    "category": "03 Sast And Security Scanners",
+    "subcategory": "Secret Scanning",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Enterprise-grade baseline secret scanner avoiding false positives",
+    "tags": [
+      "03_sast_and_security_scanners",
+      "secret scanning",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "onnxruntime",
+    "category": "04 Local Onnx And Embedded Ml",
+    "subcategory": "0-Token Inference",
+    "runtime": "C++/Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Cross-platform, high performance ML inferencing and training engine",
+    "tags": [
+      "04_local_onnx_and_embedded_ml",
+      "0-token inference",
+      "c++/python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "mobilefacenet-onnx",
+    "category": "04 Local Onnx And Embedded Ml",
+    "subcategory": "Face Biometrics",
+    "runtime": "C++/Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Ultra-lightweight biometric face descriptor extraction running locally",
+    "tags": [
+      "04_local_onnx_and_embedded_ml",
+      "face biometrics",
+      "c++/python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "llama.cpp",
+    "category": "04 Local Onnx And Embedded Ml",
+    "subcategory": "Local Inference",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Port of LLMs in pure C/C++ for ultra-fast local CPU/GPU inference",
+    "tags": [
+      "04_local_onnx_and_embedded_ml",
+      "local inference",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "whisper.cpp",
+    "category": "04 Local Onnx And Embedded Ml",
+    "subcategory": "Local Audio STT",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "High-performance inference of OpenAI Whisper speech model in C/C++",
+    "tags": [
+      "04_local_onnx_and_embedded_ml",
+      "local audio stt",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "piper-tts",
+    "category": "04 Local Onnx And Embedded Ml",
+    "subcategory": "Local Audio TTS",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Fast, local, high quality neural text-to-speech engine",
+    "tags": [
+      "04_local_onnx_and_embedded_ml",
+      "local audio tts",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "ncnn",
+    "category": "04 Local Onnx And Embedded Ml",
+    "subcategory": "Edge AI",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "High-performance neural network inference framework optimized for mobile/embedded",
+    "tags": [
+      "04_local_onnx_and_embedded_ml",
+      "edge ai",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "tflite",
+    "category": "04 Local Onnx And Embedded Ml",
+    "subcategory": "Edge AI",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Lightweight framework for running ML models on mobile and IoT devices",
+    "tags": [
+      "04_local_onnx_and_embedded_ml",
+      "edge ai",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "fastembed",
+    "category": "04 Local Onnx And Embedded Ml",
+    "subcategory": "Local Embeddings",
+    "runtime": "Python/Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Fast, lightweight Python library for local text embeddings generation",
+    "tags": [
+      "04_local_onnx_and_embedded_ml",
+      "local embeddings",
+      "python/rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "mediapipe",
+    "category": "04 Local Onnx And Embedded Ml",
+    "subcategory": "Vision AI",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Cross-platform ML solutions for live and streaming media processing",
+    "tags": [
+      "04_local_onnx_and_embedded_ml",
+      "vision ai",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "edge-tts",
+    "category": "04 Local Onnx And Embedded Ml",
+    "subcategory": "Voice Synth",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Offline/headless edge text to speech generation",
+    "tags": [
+      "04_local_onnx_and_embedded_ml",
+      "voice synth",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "usearch",
+    "category": "05 Local Vector Search And Indexing",
+    "subcategory": "Vector Index",
+    "runtime": "C++/Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Smaller & Faster Single-Header Vector Search Engine with HNSW",
+    "tags": [
+      "05_local_vector_search_and_indexing",
+      "vector index",
+      "c++/python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "faiss",
+    "category": "05 Local Vector Search And Indexing",
+    "subcategory": "Vector Search",
+    "runtime": "C++/Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Library for efficient similarity search and clustering of dense vectors",
+    "tags": [
+      "05_local_vector_search_and_indexing",
+      "vector search",
+      "c++/python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "hnswlib",
+    "category": "05 Local Vector Search And Indexing",
+    "subcategory": "Vector Index",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Header-only C++ library for fast approximate nearest neighbor search",
+    "tags": [
+      "05_local_vector_search_and_indexing",
+      "vector index",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "chromadb-embedded",
+    "category": "05 Local Vector Search And Indexing",
+    "subcategory": "Vector Store",
+    "runtime": "Python/Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Embedded local vector database for AI application memory",
+    "tags": [
+      "05_local_vector_search_and_indexing",
+      "vector store",
+      "python/rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "sqlite-vss",
+    "category": "05 Local Vector Search And Indexing",
+    "subcategory": "Vector SQLite",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "SQLite extension for vector search based on Faiss",
+    "tags": [
+      "05_local_vector_search_and_indexing",
+      "vector sqlite",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "lance-db",
+    "category": "05 Local Vector Search And Indexing",
+    "subcategory": "Vector Store",
+    "runtime": "Rust/Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Developer-friendly, serverless vector database built on Apache Arrow",
+    "tags": [
+      "05_local_vector_search_and_indexing",
+      "vector store",
+      "rust/python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "qdrant-local",
+    "category": "05 Local Vector Search And Indexing",
+    "subcategory": "Vector Store",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Embedded and standalone vector similarity search engine",
+    "tags": [
+      "05_local_vector_search_and_indexing",
+      "vector store",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "annoy",
+    "category": "05 Local Vector Search And Indexing",
+    "subcategory": "Vector Index",
+    "runtime": "C++/Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Approximate Nearest Neighbors Oh Yeah for memory-efficient indexing",
+    "tags": [
+      "05_local_vector_search_and_indexing",
+      "vector index",
+      "c++/python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "voyager",
+    "category": "05 Local Vector Search And Indexing",
+    "subcategory": "Vector Index",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Nearest neighbor search library for Python & JS by Spotify",
+    "tags": [
+      "05_local_vector_search_and_indexing",
+      "vector index",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "milvus-lite",
+    "category": "05 Local Vector Search And Indexing",
+    "subcategory": "Vector Store",
+    "runtime": "Python/C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Lightweight, embedded version of Milvus vector search",
+    "tags": [
+      "05_local_vector_search_and_indexing",
+      "vector store",
+      "python/c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "xxhash",
+    "category": "06 Deduplication Caching And Diff",
+    "subcategory": "Fast Hashing",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Extremely fast non-cryptographic hash algorithm working at RAM limits",
+    "tags": [
+      "06_deduplication_caching_and_diff",
+      "fast hashing",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "blake3",
+    "category": "06 Deduplication Caching And Diff",
+    "subcategory": "Tree Hashing",
+    "runtime": "Rust/C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Cryptographic hash function with tree structure and SIMD parallelism",
+    "tags": [
+      "06_deduplication_caching_and_diff",
+      "tree hashing",
+      "rust/c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "turborepo-cache",
+    "category": "06 Deduplication Caching And Diff",
+    "subcategory": "Build Cache",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "High-performance build cache system for monorepos",
+    "tags": [
+      "06_deduplication_caching_and_diff",
+      "build cache",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "sccache",
+    "category": "06 Deduplication Caching And Diff",
+    "subcategory": "Compiler Cache",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Shared compilation cache for C, C++ and Rust",
+    "tags": [
+      "06_deduplication_caching_and_diff",
+      "compiler cache",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "ccache",
+    "category": "06 Deduplication Caching And Diff",
+    "subcategory": "Compiler Cache",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Fast C/C++ compiler cache reducing rebuild times to zero",
+    "tags": [
+      "06_deduplication_caching_and_diff",
+      "compiler cache",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "difftastic",
+    "category": "06 Deduplication Caching And Diff",
+    "subcategory": "AST Diff",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Structural diff tool that compares files based on AST syntax",
+    "tags": [
+      "06_deduplication_caching_and_diff",
+      "ast diff",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "delta",
+    "category": "06 Deduplication Caching And Diff",
+    "subcategory": "Code Diff",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Syntax-highlighting pager for git, diff, and grep output",
+    "tags": [
+      "06_deduplication_caching_and_diff",
+      "code diff",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "bsdiff",
+    "category": "06 Deduplication Caching And Diff",
+    "subcategory": "Binary Diff",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Binary diff tool for generating micro patches between files",
+    "tags": [
+      "06_deduplication_caching_and_diff",
+      "binary diff",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "rsync",
+    "category": "06 Deduplication Caching And Diff",
+    "subcategory": "Delta Sync",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Remote and local file-copying tool with delta-transfer algorithm",
+    "tags": [
+      "06_deduplication_caching_and_diff",
+      "delta sync",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "git-diff-tree",
+    "category": "06 Deduplication Caching And Diff",
+    "subcategory": "Tree Diff",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Internal git porcelain for checking exact tree sha diffs",
+    "tags": [
+      "06_deduplication_caching_and_diff",
+      "tree diff",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "protobuf",
+    "category": "07 Binary Serialization And Fast Io",
+    "subcategory": "Serialization",
+    "runtime": "C++/Go/Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Google's language-neutral binary data serialization mechanism",
+    "tags": [
+      "07_binary_serialization_and_fast_io",
+      "serialization",
+      "c++/go/python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "flatbuffers",
+    "category": "07 Binary Serialization And Fast Io",
+    "subcategory": "Zero-Copy",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Memory efficient serialization library with zero-copy deserialization",
+    "tags": [
+      "07_binary_serialization_and_fast_io",
+      "zero-copy",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "capnproto",
+    "category": "07 Binary Serialization And Fast Io",
+    "subcategory": "Zero-Copy RPC",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Insanely fast data interchange format and capability-based RPC system",
+    "tags": [
+      "07_binary_serialization_and_fast_io",
+      "zero-copy rpc",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "msgpack",
+    "category": "07 Binary Serialization And Fast Io",
+    "subcategory": "Binary JSON",
+    "runtime": "C/Python/JS",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Efficient binary serialization format like JSON but smaller and faster",
+    "tags": [
+      "07_binary_serialization_and_fast_io",
+      "binary json",
+      "c/python/js",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "apache-arrow",
+    "category": "07 Binary Serialization And Fast Io",
+    "subcategory": "Columnar I/O",
+    "runtime": "C++/Rust/Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Cross-language development platform for in-memory columnar data",
+    "tags": [
+      "07_binary_serialization_and_fast_io",
+      "columnar i/o",
+      "c++/rust/python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "apache-parquet",
+    "category": "07 Binary Serialization And Fast Io",
+    "subcategory": "Columnar Storage",
+    "runtime": "C++/Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Columnar storage format designed for efficient data compression",
+    "tags": [
+      "07_binary_serialization_and_fast_io",
+      "columnar storage",
+      "c++/rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "bincode",
+    "category": "07 Binary Serialization And Fast Io",
+    "subcategory": "Binary Serde",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Compact, binary serializer and deserializer for Rust",
+    "tags": [
+      "07_binary_serialization_and_fast_io",
+      "binary serde",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "duckdb",
+    "category": "07 Binary Serialization And Fast Io",
+    "subcategory": "Analytical DB",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "In-process SQL OLAP database management system",
+    "tags": [
+      "07_binary_serialization_and_fast_io",
+      "analytical db",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "bser",
+    "category": "07 Binary Serialization And Fast Io",
+    "subcategory": "Fast IPC",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Binary JSON serialization format designed for Watchman",
+    "tags": [
+      "07_binary_serialization_and_fast_io",
+      "fast ipc",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "sqlite3",
+    "category": "07 Binary Serialization And Fast Io",
+    "subcategory": "Embedded DB",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Self-contained, serverless, zero-configuration transactional SQL engine",
+    "tags": [
+      "07_binary_serialization_and_fast_io",
+      "embedded db",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "pg_stat_statements",
+    "category": "08 Database Optimization And Index Advisors",
+    "subcategory": "Query Profiling",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "PostgreSQL module for tracking execution statistics of all SQL queries",
+    "tags": [
+      "08_database_optimization_and_index_advisors",
+      "query profiling",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "soar",
+    "category": "08 Database Optimization And Index Advisors",
+    "subcategory": "Query Optimizer",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "SQL Optimizer And Rewriter for automated MySQL query optimization",
+    "tags": [
+      "08_database_optimization_and_index_advisors",
+      "query optimizer",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "pganalyze-collector",
+    "category": "08 Database Optimization And Index Advisors",
+    "subcategory": "Index Advisor",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Automated PostgreSQL query performance and index recommendation tool",
+    "tags": [
+      "08_database_optimization_and_index_advisors",
+      "index advisor",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "skeema",
+    "category": "08 Database Optimization And Index Advisors",
+    "subcategory": "Schema Diff",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Declarative schema management system for MySQL and MariaDB",
+    "tags": [
+      "08_database_optimization_and_index_advisors",
+      "schema diff",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "gh-ost",
+    "category": "08 Database Optimization And Index Advisors",
+    "subcategory": "Zero-Downtime Migration",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "GitHub's online schema migration for MySQL without locking tables",
+    "tags": [
+      "08_database_optimization_and_index_advisors",
+      "zero-downtime migration",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "pt-online-schema-change",
+    "category": "08 Database Optimization And Index Advisors",
+    "subcategory": "Schema Alter",
+    "runtime": "Perl",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Percona Toolkit zero-locking table schema alter tool",
+    "tags": [
+      "08_database_optimization_and_index_advisors",
+      "schema alter",
+      "perl",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "prisma-migrate-diff",
+    "category": "08 Database Optimization And Index Advisors",
+    "subcategory": "Schema Diff",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "AST-based diff engine for relational database schemas",
+    "tags": [
+      "08_database_optimization_and_index_advisors",
+      "schema diff",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "sql-lint",
+    "category": "08 Database Optimization And Index Advisors",
+    "subcategory": "SQL Analysis",
+    "runtime": "TypeScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Configurable SQL linter for Postgres, MySQL and SQL Server",
+    "tags": [
+      "08_database_optimization_and_index_advisors",
+      "sql analysis",
+      "typescript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "pgbadger",
+    "category": "08 Database Optimization And Index Advisors",
+    "subcategory": "Log Analyzer",
+    "runtime": "Perl",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Fast PostgreSQL log analyzer with detailed performance graphs",
+    "tags": [
+      "08_database_optimization_and_index_advisors",
+      "log analyzer",
+      "perl",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "mysqltuner",
+    "category": "08 Database Optimization And Index Advisors",
+    "subcategory": "DB Tuning",
+    "runtime": "Perl",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "High-performance MySQL configuration and memory advisor",
+    "tags": [
+      "08_database_optimization_and_index_advisors",
+      "db tuning",
+      "perl",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "pymupdf",
+    "category": "09 Document Pdf And Office Parsers",
+    "subcategory": "PDF Parser",
+    "runtime": "C/Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "High performance Python bindings for MuPDF rendering and text extraction",
+    "tags": [
+      "09_document_pdf_and_office_parsers",
+      "pdf parser",
+      "c/python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "pdfplumber",
+    "category": "09 Document Pdf And Office Parsers",
+    "subcategory": "PDF Tables",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Plumb a PDF for detailed information about each text character, rectangle, and line",
+    "tags": [
+      "09_document_pdf_and_office_parsers",
+      "pdf tables",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "pypdf",
+    "category": "09 Document Pdf And Office Parsers",
+    "subcategory": "PDF Tools",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Pure-python PDF library capable of splitting, merging and transforming pages",
+    "tags": [
+      "09_document_pdf_and_office_parsers",
+      "pdf tools",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "docx2txt",
+    "category": "09 Document Pdf And Office Parsers",
+    "subcategory": "Docx Parser",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Pure Python-based utility to extract text and images from docx files",
+    "tags": [
+      "09_document_pdf_and_office_parsers",
+      "docx parser",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "xlsxwriter",
+    "category": "09 Document Pdf And Office Parsers",
+    "subcategory": "Excel Engine",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "High-performance module for writing files in the Excel XLSX file format",
+    "tags": [
+      "09_document_pdf_and_office_parsers",
+      "excel engine",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "csvkit",
+    "category": "09 Document Pdf And Office Parsers",
+    "subcategory": "CSV Suite",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Suite of command-line tools for converting to and working with CSV",
+    "tags": [
+      "09_document_pdf_and_office_parsers",
+      "csv suite",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "pandoc",
+    "category": "09 Document Pdf And Office Parsers",
+    "subcategory": "Doc Converter",
+    "runtime": "Haskell",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Universal markup converter for converting between 40+ document formats",
+    "tags": [
+      "09_document_pdf_and_office_parsers",
+      "doc converter",
+      "haskell",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "poppler-utils",
+    "category": "09 Document Pdf And Office Parsers",
+    "subcategory": "PDF Extract",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "PDF rendering and text extraction command-line utilities (pdftotext)",
+    "tags": [
+      "09_document_pdf_and_office_parsers",
+      "pdf extract",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "tesseract-ocr",
+    "category": "09 Document Pdf And Office Parsers",
+    "subcategory": "Local OCR",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Open source OCR engine with native LSTM models",
+    "tags": [
+      "09_document_pdf_and_office_parsers",
+      "local ocr",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 90,
+    "name": "apache-tika-native",
+    "category": "09 Document Pdf And Office Parsers",
+    "subcategory": "Content Parser",
+    "runtime": "Java/C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Toolkit for detecting and extracting metadata and structured text content",
+    "tags": [
+      "09_document_pdf_and_office_parsers",
+      "content parser",
+      "java/c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 91,
+    "name": "pup",
+    "category": "10 Headless Dom And Scrapers",
+    "subcategory": "DOM Extractor",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Command-line tool for processing HTML using CSS selectors",
+    "tags": [
+      "10_headless_dom_and_scrapers",
+      "dom extractor",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 92,
+    "name": "selectolax",
+    "category": "10 Headless Dom And Scrapers",
+    "subcategory": "DOM Parsing",
+    "runtime": "C/Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Fast HTML parser using Modest and Lexbor engines in Python",
+    "tags": [
+      "10_headless_dom_and_scrapers",
+      "dom parsing",
+      "c/python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "readability-lxml",
+    "category": "10 Headless Dom And Scrapers",
+    "subcategory": "Content Cleaning",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Fast HTML article text cleaner and main content extractor",
+    "tags": [
+      "10_headless_dom_and_scrapers",
+      "content cleaning",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 94,
+    "name": "cheerio-cli",
+    "category": "10 Headless Dom And Scrapers",
+    "subcategory": "HTML Parsing",
+    "runtime": "JavaScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Fast, flexible & lean implementation of core jQuery for NodeJS CLI",
+    "tags": [
+      "10_headless_dom_and_scrapers",
+      "html parsing",
+      "javascript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 95,
+    "name": "trafilatura",
+    "category": "10 Headless Dom And Scrapers",
+    "subcategory": "Web Extract",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Python package & CLI tool for web scraping and text extraction",
+    "tags": [
+      "10_headless_dom_and_scrapers",
+      "web extract",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "html-to-markdown",
+    "category": "10 Headless Dom And Scrapers",
+    "subcategory": "HTML Converter",
+    "runtime": "Go/Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Deterministic HTML to clean Markdown converter without LLM",
+    "tags": [
+      "10_headless_dom_and_scrapers",
+      "html converter",
+      "go/python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 97,
+    "name": "beautifulsoup4",
+    "category": "10 Headless Dom And Scrapers",
+    "subcategory": "HTML Scraping",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Screen-scraping library with lxml parser bindings",
+    "tags": [
+      "10_headless_dom_and_scrapers",
+      "html scraping",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "playwright-headless",
+    "category": "10 Headless Dom And Scrapers",
+    "subcategory": "Headless DOM",
+    "runtime": "Node/Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Headless browser automation library for modern web apps",
+    "tags": [
+      "10_headless_dom_and_scrapers",
+      "headless dom",
+      "node/python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "puppeteer-core",
+    "category": "10 Headless Dom And Scrapers",
+    "subcategory": "Headless DOM",
+    "runtime": "JavaScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Lightweight headless Chrome control library",
+    "tags": [
+      "10_headless_dom_and_scrapers",
+      "headless dom",
+      "javascript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "lynx-dump",
+    "category": "10 Headless Dom And Scrapers",
+    "subcategory": "Text Web Dump",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Text-based web browser with clean terminal document dumping",
+    "tags": [
+      "10_headless_dom_and_scrapers",
+      "text web dump",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 101,
+    "name": "py-spy",
+    "category": "11 Profilers Tracing And Performance",
+    "subcategory": "Code Profiling",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Sampling profiler for Python programs with zero overhead and no code changes",
+    "tags": [
+      "11_profilers_tracing_and_performance",
+      "code profiling",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 102,
+    "name": "perf",
+    "category": "11 Profilers Tracing And Performance",
+    "subcategory": "System Profiling",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Linux kernel performance analyzing tool using hardware counters",
+    "tags": [
+      "11_profilers_tracing_and_performance",
+      "system profiling",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 103,
+    "name": "valgrind",
+    "category": "11 Profilers Tracing And Performance",
+    "subcategory": "Memory Profiling",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Instrumentation framework for building dynamic analysis tools (memcheck)",
+    "tags": [
+      "11_profilers_tracing_and_performance",
+      "memory profiling",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 104,
+    "name": "heaptrack",
+    "category": "11 Profilers Tracing And Performance",
+    "subcategory": "Memory Profiling",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Fast heap memory profiler for Linux applications",
+    "tags": [
+      "11_profilers_tracing_and_performance",
+      "memory profiling",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 105,
+    "name": "flamegraph",
+    "category": "11 Profilers Tracing And Performance",
+    "subcategory": "Trace Viz",
+    "runtime": "Perl",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Stack trace visualizer for identifying CPU and memory bottlenecks",
+    "tags": [
+      "11_profilers_tracing_and_performance",
+      "trace viz",
+      "perl",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 106,
+    "name": "hyperfine",
+    "category": "11 Profilers Tracing And Performance",
+    "subcategory": "Benchmarking",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Command-line benchmarking tool with statistical analysis and outlier detection",
+    "tags": [
+      "11_profilers_tracing_and_performance",
+      "benchmarking",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 107,
+    "name": "clinicjs",
+    "category": "11 Profilers Tracing And Performance",
+    "subcategory": "Node Profiling",
+    "runtime": "JavaScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Doctor, Bubbleprof and Flame tools to diagnose Node.js performance",
+    "tags": [
+      "11_profilers_tracing_and_performance",
+      "node profiling",
+      "javascript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 108,
+    "name": "strace",
+    "category": "11 Profilers Tracing And Performance",
+    "subcategory": "Syscall Trace",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Diagnostic, debugging and instructional userspace utility for Linux",
+    "tags": [
+      "11_profilers_tracing_and_performance",
+      "syscall trace",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 109,
+    "name": "ltrace",
+    "category": "11 Profilers Tracing And Performance",
+    "subcategory": "Libcall Trace",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Dynamic library call interception and tracing tool",
+    "tags": [
+      "11_profilers_tracing_and_performance",
+      "libcall trace",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 110,
+    "name": "criterion",
+    "category": "11 Profilers Tracing And Performance",
+    "subcategory": "Micro Benchmark",
+    "runtime": "Rust/C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Statistics-driven micro-benchmarking library for Rust and C",
+    "tags": [
+      "11_profilers_tracing_and_performance",
+      "micro benchmark",
+      "rust/c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 111,
+    "name": "hypothesis",
+    "category": "12 Test Automation And Fuzzers",
+    "subcategory": "Property Test",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Advanced property-based testing tool that automatically generates test cases",
+    "tags": [
+      "12_test_automation_and_fuzzers",
+      "property test",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 112,
+    "name": "fast-check",
+    "category": "12 Test Automation And Fuzzers",
+    "subcategory": "Property Test",
+    "runtime": "TypeScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Property based testing framework for JavaScript & TypeScript",
+    "tags": [
+      "12_test_automation_and_fuzzers",
+      "property test",
+      "typescript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 113,
+    "name": "quickcheck",
+    "category": "12 Test Automation And Fuzzers",
+    "subcategory": "Property Test",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Automated property-based testing library for Rust and Haskell",
+    "tags": [
+      "12_test_automation_and_fuzzers",
+      "property test",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 114,
+    "name": "libfuzzer",
+    "category": "12 Test Automation And Fuzzers",
+    "subcategory": "Fuzzing",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "In-process, coverage-guided evolutionary fuzzing engine",
+    "tags": [
+      "12_test_automation_and_fuzzers",
+      "fuzzing",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 115,
+    "name": "aflplusplus",
+    "category": "12 Test Automation And Fuzzers",
+    "subcategory": "Fuzzing",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "American Fuzzy Lop Plus Plus — state of the art security fuzzer",
+    "tags": [
+      "12_test_automation_and_fuzzers",
+      "fuzzing",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 116,
+    "name": "atheris",
+    "category": "12 Test Automation And Fuzzers",
+    "subcategory": "Python Fuzzing",
+    "runtime": "Python/C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Coverage-guided Python fuzzing engine based on libFuzzer",
+    "tags": [
+      "12_test_automation_and_fuzzers",
+      "python fuzzing",
+      "python/c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 117,
+    "name": "k6",
+    "category": "12 Test Automation And Fuzzers",
+    "subcategory": "Load Test",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Modern load testing tool, using Go and JavaScript for headless execution",
+    "tags": [
+      "12_test_automation_and_fuzzers",
+      "load test",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 118,
+    "name": "vegeta",
+    "category": "12 Test Automation And Fuzzers",
+    "subcategory": "HTTP Benchmark",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Versatile HTTP load testing tool built in Go",
+    "tags": [
+      "12_test_automation_and_fuzzers",
+      "http benchmark",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 119,
+    "name": "locust-headless",
+    "category": "12 Test Automation And Fuzzers",
+    "subcategory": "Load Test",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Scalable user load testing tool running without web UI",
+    "tags": [
+      "12_test_automation_and_fuzzers",
+      "load test",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 120,
+    "name": "pytest-benchmark",
+    "category": "12 Test Automation And Fuzzers",
+    "subcategory": "Test Benchmark",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "A pytest fixture for benchmarking code performance automatically",
+    "tags": [
+      "12_test_automation_and_fuzzers",
+      "test benchmark",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 121,
+    "name": "quicktype",
+    "category": "13 Api Contracts And Codegen",
+    "subcategory": "Type Codegen",
+    "runtime": "TypeScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Generates types and converters from JSON, Schema, and GraphQL in 20+ languages",
+    "tags": [
+      "13_api_contracts_and_codegen",
+      "type codegen",
+      "typescript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 122,
+    "name": "datamodel-code-generator",
+    "category": "13 Api Contracts And Codegen",
+    "subcategory": "Model Codegen",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Pydantic & dataclass code generator from OpenAPI, JSON Schema",
+    "tags": [
+      "13_api_contracts_and_codegen",
+      "model codegen",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 123,
+    "name": "ts-to-zod",
+    "category": "13 Api Contracts And Codegen",
+    "subcategory": "Schema Gen",
+    "runtime": "TypeScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Generates Zod schemas from TypeScript types and interfaces deterministically",
+    "tags": [
+      "13_api_contracts_and_codegen",
+      "schema gen",
+      "typescript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 124,
+    "name": "openapi-generator-cli",
+    "category": "13 Api Contracts And Codegen",
+    "subcategory": "API Codegen",
+    "runtime": "Java",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Generation of API client libraries, server stubs and documentation",
+    "tags": [
+      "13_api_contracts_and_codegen",
+      "api codegen",
+      "java",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 125,
+    "name": "grpc-tools",
+    "category": "13 Api Contracts And Codegen",
+    "subcategory": "gRPC Codegen",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Protobuf compiler tools for generating gRPC clients and servers",
+    "tags": [
+      "13_api_contracts_and_codegen",
+      "grpc codegen",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 126,
+    "name": "swagger-codegen",
+    "category": "13 Api Contracts And Codegen",
+    "subcategory": "SDK Codegen",
+    "runtime": "Java",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Template-driven engine to generate client SDKs from Swagger specs",
+    "tags": [
+      "13_api_contracts_and_codegen",
+      "sdk codegen",
+      "java",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 127,
+    "name": "prisma-client-generator",
+    "category": "13 Api Contracts And Codegen",
+    "subcategory": "DB Codegen",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Generates zero-overhead type-safe database clients via AST",
+    "tags": [
+      "13_api_contracts_and_codegen",
+      "db codegen",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 128,
+    "name": "graphql-codegen",
+    "category": "13 Api Contracts And Codegen",
+    "subcategory": "GraphQL Codegen",
+    "runtime": "TypeScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Generates typed hooks and queries from GraphQL schema and operations",
+    "tags": [
+      "13_api_contracts_and_codegen",
+      "graphql codegen",
+      "typescript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 129,
+    "name": "buf-cli",
+    "category": "13 Api Contracts And Codegen",
+    "subcategory": "Protobuf Tool",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Modern CLI tool for managing Protocol Buffers and enforcing lint rules",
+    "tags": [
+      "13_api_contracts_and_codegen",
+      "protobuf tool",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 130,
+    "name": "openapi-typescript",
+    "category": "13 Api Contracts And Codegen",
+    "subcategory": "Type Extract",
+    "runtime": "TypeScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Generate TypeScript types directly from OpenAPI 3 specs with 0-runtime",
+    "tags": [
+      "13_api_contracts_and_codegen",
+      "type extract",
+      "typescript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 131,
+    "name": "dive",
+    "category": "14 Devops Container And Docker",
+    "subcategory": "Image Optimizer",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Tool for exploring a docker image, layer contents, and discovering size wastes",
+    "tags": [
+      "14_devops_container_and_docker",
+      "image optimizer",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 132,
+    "name": "act",
+    "category": "14 Devops Container And Docker",
+    "subcategory": "CI Local Test",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Run your GitHub Actions locally inside Docker without pushing to cloud",
+    "tags": [
+      "14_devops_container_and_docker",
+      "ci local test",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 133,
+    "name": "lazydocker",
+    "category": "14 Devops Container And Docker",
+    "subcategory": "Container TUI",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Simple terminal UI for docker and docker-compose",
+    "tags": [
+      "14_devops_container_and_docker",
+      "container tui",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 134,
+    "name": "k3s",
+    "category": "14 Devops Container And Docker",
+    "subcategory": "Lightweight K8s",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Lightweight Kubernetes for IoT and Edge environments",
+    "tags": [
+      "14_devops_container_and_docker",
+      "lightweight k8s",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 135,
+    "name": "kind",
+    "category": "14 Devops Container And Docker",
+    "subcategory": "Local K8s",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Kubernetes IN Docker - local Kubernetes clusters using Docker container nodes",
+    "tags": [
+      "14_devops_container_and_docker",
+      "local k8s",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 136,
+    "name": "skaffold",
+    "category": "14 Devops Container And Docker",
+    "subcategory": "DevOps Pipeline",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Facilitates continuous development for Kubernetes applications",
+    "tags": [
+      "14_devops_container_and_docker",
+      "devops pipeline",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 137,
+    "name": "earthly",
+    "category": "14 Devops Container And Docker",
+    "subcategory": "Build Pipeline",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Super simple build automation tool with container isolation and caching",
+    "tags": [
+      "14_devops_container_and_docker",
+      "build pipeline",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 138,
+    "name": "ctop",
+    "category": "14 Devops Container And Docker",
+    "subcategory": "Container Monitor",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Top-like interface for container metrics and performance inspection",
+    "tags": [
+      "14_devops_container_and_docker",
+      "container monitor",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 139,
+    "name": "distroless",
+    "category": "14 Devops Container And Docker",
+    "subcategory": "Image Minimalizer",
+    "runtime": "Docker",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Language focused Docker base images containing only your application",
+    "tags": [
+      "14_devops_container_and_docker",
+      "image minimalizer",
+      "docker",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 140,
+    "name": "docker-slim",
+    "category": "14 Devops Container And Docker",
+    "subcategory": "Image Shrinker",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Automatically minify & secure container images up to 30x smaller",
+    "tags": [
+      "14_devops_container_and_docker",
+      "image shrinker",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 141,
+    "name": "mitmproxy",
+    "category": "15 Network Http And Api Inspection",
+    "subcategory": "HTTP Intercept",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Interactive TLS-capable intercepting HTTP proxy for console",
+    "tags": [
+      "15_network_http_and_api_inspection",
+      "http intercept",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 142,
+    "name": "tcpdump",
+    "category": "15 Network Http And Api Inspection",
+    "subcategory": "Packet Sniffing",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Powerful command-line packet analyzer tool",
+    "tags": [
+      "15_network_http_and_api_inspection",
+      "packet sniffing",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 143,
+    "name": "tshark",
+    "category": "15 Network Http And Api Inspection",
+    "subcategory": "Packet Analysis",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Network protocol analyzer CLI version of Wireshark",
+    "tags": [
+      "15_network_http_and_api_inspection",
+      "packet analysis",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 144,
+    "name": "curlie",
+    "category": "15 Network Http And Api Inspection",
+    "subcategory": "HTTP Client",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "The power of curl with the ease of use of httpie",
+    "tags": [
+      "15_network_http_and_api_inspection",
+      "http client",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 145,
+    "name": "httpie",
+    "category": "15 Network Http And Api Inspection",
+    "subcategory": "HTTP Client",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Command-line HTTP client with intuitive JSON formatting and colorized output",
+    "tags": [
+      "15_network_http_and_api_inspection",
+      "http client",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 146,
+    "name": "grpcurl",
+    "category": "15 Network Http And Api Inspection",
+    "subcategory": "gRPC Client",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Command-line tool that lets you interact with gRPC servers",
+    "tags": [
+      "15_network_http_and_api_inspection",
+      "grpc client",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 147,
+    "name": "websocat",
+    "category": "15 Network Http And Api Inspection",
+    "subcategory": "WebSocket Client",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Command-line client for WebSockets, like netcat or curl for ws://",
+    "tags": [
+      "15_network_http_and_api_inspection",
+      "websocket client",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 148,
+    "name": "wrk",
+    "category": "15 Network Http And Api Inspection",
+    "subcategory": "HTTP Benchmark",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Modern HTTP benchmarking tool capable of generating massive load",
+    "tags": [
+      "15_network_http_and_api_inspection",
+      "http benchmark",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 149,
+    "name": "autocannon",
+    "category": "15 Network Http And Api Inspection",
+    "subcategory": "HTTP Benchmark",
+    "runtime": "JavaScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Fast HTTP/1.1 benchmarking tool written in Node.js",
+    "tags": [
+      "15_network_http_and_api_inspection",
+      "http benchmark",
+      "javascript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 150,
+    "name": "drill",
+    "category": "15 Network Http And Api Inspection",
+    "subcategory": "HTTP Benchmark",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "HTTP load testing and benchmarking suite written in Rust",
+    "tags": [
+      "15_network_http_and_api_inspection",
+      "http benchmark",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 151,
+    "name": "io_uring",
+    "category": "16 Kernel Bypass And Low Latency",
+    "subcategory": "Kernel I/O",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Linux kernel interface for asynchronous zero-copy fast I/O operations",
+    "tags": [
+      "16_kernel_bypass_and_low_latency",
+      "kernel i/o",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 152,
+    "name": "epoll",
+    "category": "16 Kernel Bypass And Low Latency",
+    "subcategory": "Event Loop",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "I/O event notification facility for scalable network sockets",
+    "tags": [
+      "16_kernel_bypass_and_low_latency",
+      "event loop",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 153,
+    "name": "kqueue",
+    "category": "16 Kernel Bypass And Low Latency",
+    "subcategory": "Event Loop",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Scalable event notification interface on BSD/macOS",
+    "tags": [
+      "16_kernel_bypass_and_low_latency",
+      "event loop",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 154,
+    "name": "uvloop",
+    "category": "16 Kernel Bypass And Low Latency",
+    "subcategory": "Async Accelerator",
+    "runtime": "C/Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Fast, drop-in replacement of the built-in asyncio event loop on libuv",
+    "tags": [
+      "16_kernel_bypass_and_low_latency",
+      "async accelerator",
+      "c/python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 155,
+    "name": "tokio",
+    "category": "16 Kernel Bypass And Low Latency",
+    "subcategory": "Async Runtime",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Event-driven, non-blocking I/O platform for writing asynchronous Rust applications",
+    "tags": [
+      "16_kernel_bypass_and_low_latency",
+      "async runtime",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 156,
+    "name": "seastar",
+    "category": "16 Kernel Bypass And Low Latency",
+    "subcategory": "Hardware I/O",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "High performance asynchronous C++ framework for modern multi-core servers",
+    "tags": [
+      "16_kernel_bypass_and_low_latency",
+      "hardware i/o",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 157,
+    "name": "dpdk",
+    "category": "16 Kernel Bypass And Low Latency",
+    "subcategory": "Kernel Bypass",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Data Plane Development Kit for fast packet processing bypassing kernel",
+    "tags": [
+      "16_kernel_bypass_and_low_latency",
+      "kernel bypass",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 158,
+    "name": "spdk",
+    "category": "16 Kernel Bypass And Low Latency",
+    "subcategory": "Storage Bypass",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Storage Performance Development Kit for fast NVMe storage access",
+    "tags": [
+      "16_kernel_bypass_and_low_latency",
+      "storage bypass",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 159,
+    "name": "aerospike-engine",
+    "category": "16 Kernel Bypass And Low Latency",
+    "subcategory": "Low-Latency DB",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Real-time NoSQL data engine optimized for flash/SSD storage",
+    "tags": [
+      "16_kernel_bypass_and_low_latency",
+      "low-latency db",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 160,
+    "name": "mimalloc",
+    "category": "16 Kernel Bypass And Low Latency",
+    "subcategory": "Memory Alloc",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Compact general purpose allocator with excellent performance characteristics",
+    "tags": [
+      "16_kernel_bypass_and_low_latency",
+      "memory alloc",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 161,
+    "name": "zstd",
+    "category": "17 Compression And Archival",
+    "subcategory": "Compression",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Zstandard - Fast real-time compression algorithm with high compression ratios",
+    "tags": [
+      "17_compression_and_archival",
+      "compression",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 162,
+    "name": "lz4",
+    "category": "17 Compression And Archival",
+    "subcategory": "Fast Compression",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Extremely Fast Compression algorithm operating at multi-gigabytes per second",
+    "tags": [
+      "17_compression_and_archival",
+      "fast compression",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 163,
+    "name": "snappy",
+    "category": "17 Compression And Archival",
+    "subcategory": "Fast Compression",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Fast compressor/decompressor written in C++ by Google",
+    "tags": [
+      "17_compression_and_archival",
+      "fast compression",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 164,
+    "name": "brotli",
+    "category": "17 Compression And Archival",
+    "subcategory": "Web Compression",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Generic-purpose lossless compression algorithm optimized for web data",
+    "tags": [
+      "17_compression_and_archival",
+      "web compression",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 165,
+    "name": "pigz",
+    "category": "17 Compression And Archival",
+    "subcategory": "Parallel Gzip",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Parallel implementation of gzip for modern multi-core machines",
+    "tags": [
+      "17_compression_and_archival",
+      "parallel gzip",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 166,
+    "name": "libarchive",
+    "category": "17 Compression And Archival",
+    "subcategory": "Archive Lib",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Multi-format archive and compression library supporting zip, tar, 7z, iso",
+    "tags": [
+      "17_compression_and_archival",
+      "archive lib",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 167,
+    "name": "zpaq",
+    "category": "17 Compression And Archival",
+    "subcategory": "Dedupe Archive",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Incremental, journaling, deduplicating archiver for maximum compression",
+    "tags": [
+      "17_compression_and_archival",
+      "dedupe archive",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 168,
+    "name": "squashfs-tools",
+    "category": "17 Compression And Archival",
+    "subcategory": "Compressed FS",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Tools to create and extract Squashfs read-only compressed filesystems",
+    "tags": [
+      "17_compression_and_archival",
+      "compressed fs",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 169,
+    "name": "p7zip",
+    "category": "17 Compression And Archival",
+    "subcategory": "7z Archiver",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Command-line version of 7-Zip archiver for Linux/Unix",
+    "tags": [
+      "17_compression_and_archival",
+      "7z archiver",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 170,
+    "name": "bzip2",
+    "category": "17 Compression And Archival",
+    "subcategory": "Compression",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Freely available, patent free, high-quality data compressor",
+    "tags": [
+      "17_compression_and_archival",
+      "compression",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 171,
+    "name": "ffmpeg",
+    "category": "18 Image Audio And Video Processing",
+    "subcategory": "Media Transcode",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Hyper-fast cross-platform solution to record, convert and stream audio and video",
+    "tags": [
+      "18_image_audio_and_video_processing",
+      "media transcode",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 172,
+    "name": "imagemagick",
+    "category": "18 Image Audio And Video Processing",
+    "subcategory": "Image Processing",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Create, edit, compose, or convert bitmap images from CLI",
+    "tags": [
+      "18_image_audio_and_video_processing",
+      "image processing",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 173,
+    "name": "libvips",
+    "category": "18 Image Audio And Video Processing",
+    "subcategory": "Fast Image Lib",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Fast image processing library with low memory needs and streaming execution",
+    "tags": [
+      "18_image_audio_and_video_processing",
+      "fast image lib",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 174,
+    "name": "optipng",
+    "category": "18 Image Audio And Video Processing",
+    "subcategory": "PNG Optimizer",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "PNG optimizer that recompresses image files to smaller size without losing info",
+    "tags": [
+      "18_image_audio_and_video_processing",
+      "png optimizer",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 175,
+    "name": "pngquant",
+    "category": "18 Image Audio And Video Processing",
+    "subcategory": "PNG Shrinker",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Lossy PNG compressor that significantly reduces file sizes with alpha channel",
+    "tags": [
+      "18_image_audio_and_video_processing",
+      "png shrinker",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 176,
+    "name": "gifsicle",
+    "category": "18 Image Audio And Video Processing",
+    "subcategory": "GIF Optimizer",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Command-line tool for creating, editing, and getting information about GIF images",
+    "tags": [
+      "18_image_audio_and_video_processing",
+      "gif optimizer",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 177,
+    "name": "svgo",
+    "category": "18 Image Audio And Video Processing",
+    "subcategory": "SVG Optimizer",
+    "runtime": "JavaScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Node.js tool for optimizing SVG vector graphics files",
+    "tags": [
+      "18_image_audio_and_video_processing",
+      "svg optimizer",
+      "javascript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 178,
+    "name": "sox",
+    "category": "18 Image Audio And Video Processing",
+    "subcategory": "Audio Engine",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Sound eXchange, the Swiss Army knife of audio manipulation",
+    "tags": [
+      "18_image_audio_and_video_processing",
+      "audio engine",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 179,
+    "name": "jpegoptim",
+    "category": "18 Image Audio And Video Processing",
+    "subcategory": "JPEG Optimizer",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Utility to optimize/compress JPEG files without quality loss",
+    "tags": [
+      "18_image_audio_and_video_processing",
+      "jpeg optimizer",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 180,
+    "name": "exiftool",
+    "category": "18 Image Audio And Video Processing",
+    "subcategory": "Metadata Tool",
+    "runtime": "Perl",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Read, write and edit meta information in a wide variety of files",
+    "tags": [
+      "18_image_audio_and_video_processing",
+      "metadata tool",
+      "perl",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 181,
+    "name": "plop",
+    "category": "19 Code Generation And Templating",
+    "subcategory": "Code Scaffolding",
+    "runtime": "JavaScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Micro-generator framework for automating consistent code scaffolding",
+    "tags": [
+      "19_code_generation_and_templating",
+      "code scaffolding",
+      "javascript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 182,
+    "name": "hygen",
+    "category": "19 Code Generation And Templating",
+    "subcategory": "Code Generator",
+    "runtime": "JavaScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Simple, fast, and scalable code generator that lives in your project",
+    "tags": [
+      "19_code_generation_and_templating",
+      "code generator",
+      "javascript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 183,
+    "name": "cookiecutter",
+    "category": "19 Code Generation And Templating",
+    "subcategory": "Project Template",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Command-line utility that creates projects from cookiecutters (templates)",
+    "tags": [
+      "19_code_generation_and_templating",
+      "project template",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 184,
+    "name": "gomplate",
+    "category": "19 Code Generation And Templating",
+    "subcategory": "Template Engine",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Flexible command-line template processor supporting various data sources",
+    "tags": [
+      "19_code_generation_and_templating",
+      "template engine",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 185,
+    "name": "jinja2-cli",
+    "category": "19 Code Generation And Templating",
+    "subcategory": "Template Engine",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "CLI interface for Jinja2 template rendering with YAML/JSON data",
+    "tags": [
+      "19_code_generation_and_templating",
+      "template engine",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 186,
+    "name": "envsubst",
+    "category": "19 Code Generation And Templating",
+    "subcategory": "Env Sub",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Substitutes environment variables in shell format strings",
+    "tags": [
+      "19_code_generation_and_templating",
+      "env sub",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 187,
+    "name": "handlebars-cmd",
+    "category": "19 Code Generation And Templating",
+    "subcategory": "Template Engine",
+    "runtime": "JavaScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "CLI wrapper for handlebars template compilation",
+    "tags": [
+      "19_code_generation_and_templating",
+      "template engine",
+      "javascript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 188,
+    "name": "yeoman",
+    "category": "19 Code Generation And Templating",
+    "subcategory": "Scaffolding",
+    "runtime": "JavaScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "The web's scaffolding tool for modern webapps",
+    "tags": [
+      "19_code_generation_and_templating",
+      "scaffolding",
+      "javascript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 189,
+    "name": "mustache-cli",
+    "category": "19 Code Generation And Templating",
+    "subcategory": "Template Engine",
+    "runtime": "Rust/C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Zero-dependency Mustache template CLI renderer",
+    "tags": [
+      "19_code_generation_and_templating",
+      "template engine",
+      "rust/c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 190,
+    "name": "tera-cli",
+    "category": "19 Code Generation And Templating",
+    "subcategory": "Template Engine",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Command line utility for rendering Tera templates",
+    "tags": [
+      "19_code_generation_and_templating",
+      "template engine",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 191,
+    "name": "ghidra-headless",
+    "category": "20 Reverse Engineering And Disassembly",
+    "subcategory": "Disassembly",
+    "runtime": "Java/C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "NSA's software reverse engineering suite running in headless script mode",
+    "tags": [
+      "20_reverse_engineering_and_disassembly",
+      "disassembly",
+      "java/c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 192,
+    "name": "radare2",
+    "category": "20 Reverse Engineering And Disassembly",
+    "subcategory": "Reverse Eng",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Unix-like reverse engineering framework and command-line toolset",
+    "tags": [
+      "20_reverse_engineering_and_disassembly",
+      "reverse eng",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 193,
+    "name": "rizin",
+    "category": "20 Reverse Engineering And Disassembly",
+    "subcategory": "Binary Analysis",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "UNIX-like reverse engineering framework and assembly analysis suite",
+    "tags": [
+      "20_reverse_engineering_and_disassembly",
+      "binary analysis",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 194,
+    "name": "objdump",
+    "category": "20 Reverse Engineering And Disassembly",
+    "subcategory": "Disassembler",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Display information from object files and disassemblies",
+    "tags": [
+      "20_reverse_engineering_and_disassembly",
+      "disassembler",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 195,
+    "name": "nm",
+    "category": "20 Reverse Engineering And Disassembly",
+    "subcategory": "Symbol Dump",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "List symbols from object files without running compiler",
+    "tags": [
+      "20_reverse_engineering_and_disassembly",
+      "symbol dump",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 196,
+    "name": "ldd",
+    "category": "20 Reverse Engineering And Disassembly",
+    "subcategory": "Dependency Check",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Print shared object dependencies of ELF binaries",
+    "tags": [
+      "20_reverse_engineering_and_disassembly",
+      "dependency check",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 197,
+    "name": "patchelf",
+    "category": "20 Reverse Engineering And Disassembly",
+    "subcategory": "ELF Tool",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Small utility to modify the dynamic linker and RPATH of ELF executables",
+    "tags": [
+      "20_reverse_engineering_and_disassembly",
+      "elf tool",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 198,
+    "name": "binwalk",
+    "category": "20 Reverse Engineering And Disassembly",
+    "subcategory": "Firmware Analysis",
+    "runtime": "Python/C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Fast tool for searching a given binary image for embedded files and code",
+    "tags": [
+      "20_reverse_engineering_and_disassembly",
+      "firmware analysis",
+      "python/c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 199,
+    "name": "strings-cli",
+    "category": "20 Reverse Engineering And Disassembly",
+    "subcategory": "String Extraction",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Find printable strings in object or binary files",
+    "tags": [
+      "20_reverse_engineering_and_disassembly",
+      "string extraction",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 200,
+    "name": "hexdump",
+    "category": "20 Reverse Engineering And Disassembly",
+    "subcategory": "Hex Inspection",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "ASCII, decimal, hexadecimal, octal dump utility",
+    "tags": [
+      "20_reverse_engineering_and_disassembly",
+      "hex inspection",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 201,
+    "name": "esprima",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "AST Parsing",
+    "runtime": "JavaScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Classic ECMAScript parser for structural analysis",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "ast parsing",
+      "javascript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 202,
+    "name": "espree",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "AST Parsing",
+    "runtime": "JavaScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "An Esprima-compatible JavaScript parser powered by Acorn",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "ast parsing",
+      "javascript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 203,
+    "name": "recast",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "AST Rewriter",
+    "runtime": "JavaScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "JavaScript syntax tree transformer, non-destructive pretty-printer",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "ast rewriter",
+      "javascript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 204,
+    "name": "jscodeshift",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "Codemod AST",
+    "runtime": "JavaScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Toolkit for running codemods over multiple JS/TS files",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "codemod ast",
+      "javascript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 205,
+    "name": "ts-morph",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "TS AST",
+    "runtime": "TypeScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "TypeScript Compiler API wrapper for easy AST navigation and manipulation",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "ts ast",
+      "typescript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 206,
+    "name": "estree-walker",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "AST Walk",
+    "runtime": "JavaScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Simple little tool for walking ESTree-compliant ASTs",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "ast walk",
+      "javascript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 207,
+    "name": "astring",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "AST Codegen",
+    "runtime": "JavaScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Fast and tiny JavaScript code generator from ESTree AST",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "ast codegen",
+      "javascript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 208,
+    "name": "pyastdump",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "AST Visualizer",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Python AST structural hierarchy visualizer and exporter",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "ast visualizer",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 209,
+    "name": "asttokens",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "AST Tokens",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Annotates Python AST trees with source code positions and tokens",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "ast tokens",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 210,
+    "name": "parso",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "Python Parser",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Python parser that supports error recovery and roundtrip parsing",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "python parser",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 211,
+    "name": "typed-ast",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "Typed AST",
+    "runtime": "C/Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Fork of CPython's AST with type comment support",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "typed ast",
+      "c/python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 212,
+    "name": "syn",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "Rust AST",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Nom-based parsing library for Rust source code into AST",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "rust ast",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 213,
+    "name": "quote",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "Rust Macro AST",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Rust quasi-quoting macro library for generating AST tokens",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "rust macro ast",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 214,
+    "name": "proc-macro2",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "Macro AST",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Compiler abstraction layer for Rust procedural macros and token streams",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "macro ast",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 215,
+    "name": "go/ast",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "Go AST",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Standard Go library for inspecting and transforming Go ASTs",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "go ast",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 216,
+    "name": "go/parser",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "Go Parser",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Standard Go source code parser returning full AST representation",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "go parser",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 217,
+    "name": "php-parser",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "PHP AST",
+    "runtime": "PHP",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "A PHP parser written in PHP for static analysis and AST manipulation",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "php ast",
+      "php",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 218,
+    "name": "javaparser",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "Java AST",
+    "runtime": "Java",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Java 1-21 Parser and Abstract Syntax Tree for Java",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "java ast",
+      "java",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 219,
+    "name": "cxxparser",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "C++ AST",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "C/C++ AST parser based on libclang and LLVM toolchain",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "c++ ast",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 220,
+    "name": "ruby-parser",
+    "category": "01 Ast And Syntax Parsers",
+    "subcategory": "Ruby AST",
+    "runtime": "Ruby",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Ruby parser written in pure Ruby producing s-expressions",
+    "tags": [
+      "01_ast_and_syntax_parsers",
+      "ruby ast",
+      "ruby",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 221,
+    "name": "chokidar",
+    "category": "24 Fs Watchers And Fast Search",
+    "subcategory": "FS Watch",
+    "runtime": "JavaScript",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Minimal and efficient cross-platform file watching library",
+    "tags": [
+      "24_fs_watchers_and_fast_search",
+      "fs watch",
+      "javascript",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 222,
+    "name": "notify-rs",
+    "category": "24 Fs Watchers And Fast Search",
+    "subcategory": "FS Watch",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Cross-platform filesystem notification library for Rust",
+    "tags": [
+      "24_fs_watchers_and_fast_search",
+      "fs watch",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 223,
+    "name": "watchdog-py",
+    "category": "24 Fs Watchers And Fast Search",
+    "subcategory": "FS Watch",
+    "runtime": "Python",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Python API library and shell utilities to monitor file system events",
+    "tags": [
+      "24_fs_watchers_and_fast_search",
+      "fs watch",
+      "python",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 224,
+    "name": "fswatch",
+    "category": "24 Fs Watchers And Fast Search",
+    "subcategory": "FS Watch",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Cross-platform file change monitor with multiple backends",
+    "tags": [
+      "24_fs_watchers_and_fast_search",
+      "fs watch",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 225,
+    "name": "inotify-tools",
+    "category": "24 Fs Watchers And Fast Search",
+    "subcategory": "FS Watch",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Command line utilities providing a simple interface to inotify",
+    "tags": [
+      "24_fs_watchers_and_fast_search",
+      "fs watch",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 226,
+    "name": "ripgrep",
+    "category": "24 Fs Watchers And Fast Search",
+    "subcategory": "Fast Search",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Line-oriented search tool that recursively searches current directory for regex",
+    "tags": [
+      "24_fs_watchers_and_fast_search",
+      "fast search",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 227,
+    "name": "fd-find",
+    "category": "24 Fs Watchers And Fast Search",
+    "subcategory": "Fast Search",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Simple, fast and user-friendly alternative to find command",
+    "tags": [
+      "24_fs_watchers_and_fast_search",
+      "fast search",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 228,
+    "name": "fzf",
+    "category": "24 Fs Watchers And Fast Search",
+    "subcategory": "Fuzzy Finder",
+    "runtime": "Go",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "General-purpose command-line fuzzy finder written in Go",
+    "tags": [
+      "24_fs_watchers_and_fast_search",
+      "fuzzy finder",
+      "go",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 229,
+    "name": "skim",
+    "category": "24 Fs Watchers And Fast Search",
+    "subcategory": "Fuzzy Finder",
+    "runtime": "Rust",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Fuzzy Finder in pure Rust alternative to fzf",
+    "tags": [
+      "24_fs_watchers_and_fast_search",
+      "fuzzy finder",
+      "rust",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 230,
+    "name": "ugrep",
+    "category": "24 Fs Watchers And Fast Search",
+    "subcategory": "Fast Search",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Ultra fast grep with interactive TUI, fuzzy search and archive search",
+    "tags": [
+      "24_fs_watchers_and_fast_search",
+      "fast search",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 231,
+    "name": "jemalloc",
+    "category": "21 Memory Management And Allocators",
+    "subcategory": "Memory Alloc",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "General purpose malloc implementation emphasizing fragmentation avoidance",
+    "tags": [
+      "21_memory_management_and_allocators",
+      "memory alloc",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 232,
+    "name": "tcmalloc",
+    "category": "21 Memory Management And Allocators",
+    "subcategory": "Memory Alloc",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Thread-Caching Malloc - Google's fast memory allocator",
+    "tags": [
+      "21_memory_management_and_allocators",
+      "memory alloc",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 233,
+    "name": "snmalloc",
+    "category": "21 Memory Management And Allocators",
+    "subcategory": "Memory Alloc",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Message passing based high-performance memory allocator by Microsoft",
+    "tags": [
+      "21_memory_management_and_allocators",
+      "memory alloc",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 234,
+    "name": "rpmalloc",
+    "category": "21 Memory Management And Allocators",
+    "subcategory": "Memory Alloc",
+    "runtime": "C",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Public domain cross-platform lock-free memory allocator in C",
+    "tags": [
+      "21_memory_management_and_allocators",
+      "memory alloc",
+      "c",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 235,
+    "name": "dieharder",
+    "category": "21 Memory Management And Allocators",
+    "subcategory": "Secure Alloc",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Hardened memory allocator that prevents heap exploitation",
+    "tags": [
+      "21_memory_management_and_allocators",
+      "secure alloc",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 236,
+    "name": "simdjson",
+    "category": "25 Hardware Simd And Gpu Tools",
+    "subcategory": "SIMD JSON",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Parsing gigabytes of JSON per second using standard SIMD instructions",
+    "tags": [
+      "25_hardware_simd_and_gpu_tools",
+      "simd json",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 237,
+    "name": "sonic-cpp",
+    "category": "25 Hardware Simd And Gpu Tools",
+    "subcategory": "SIMD JSON",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Fast JSON serializing and deserializing library using SIMD",
+    "tags": [
+      "25_hardware_simd_and_gpu_tools",
+      "simd json",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 238,
+    "name": "simdutf",
+    "category": "25 Hardware Simd And Gpu Tools",
+    "subcategory": "SIMD Unicode",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Unicode validation and transcoding at gigabytes per second with SIMD",
+    "tags": [
+      "25_hardware_simd_and_gpu_tools",
+      "simd unicode",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 239,
+    "name": "highway",
+    "category": "25 Hardware Simd And Gpu Tools",
+    "subcategory": "SIMD Engine",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "Performance-portable, length-agnostic SIMD with runtime dispatch in C++",
+    "tags": [
+      "25_hardware_simd_and_gpu_tools",
+      "simd engine",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  },
+  {
+    "id": 240,
+    "name": "libyuv",
+    "category": "25 Hardware Simd And Gpu Tools",
+    "subcategory": "SIMD Vision",
+    "runtime": "C++",
+    "token_saving_mechanism": "0-token local deterministic execution avoiding LLM context consumption",
+    "description": "YUV scaling and conversion functionality using optimized SIMD",
+    "tags": [
+      "25_hardware_simd_and_gpu_tools",
+      "simd vision",
+      "c++",
+      "zero-token",
+      "offline"
+    ]
+  }
+]
