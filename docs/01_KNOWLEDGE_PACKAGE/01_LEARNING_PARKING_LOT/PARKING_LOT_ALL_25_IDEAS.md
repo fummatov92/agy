@@ -81,7 +81,7 @@ Fayzillo terminal orqali ulanib joriy qiladi. Backend auth.js da TOKEN_EXPIRY_SE
 - **Status:** `PENDING`
 - **Tags:** `monitoring, watchdog, telegram, failover, high_availability`
 - **Core Architecture & Operational Blueprint:**
-Ikkala bot (15976 vs 15850) har 25 soniyada bir-birini /api/status orqali tekshiradi. Agar birortasi 2 marta ketma-ket javob bermasa (crash/offline), tirik qolgan bot darhol adminga (7463402937) favqulodda xabar yuboradi. Qayta tiklanganda recovery alert beriladi.
+Ikkala bot (15976 vs 15850) har 25 soniyada bir-birini /api/status orqali tekshiradi. Agar birortasi 2 marta ketma-ket javob bermasa (crash/offline), tirik qolgan bot darhol adminga (<ADMIN_CHAT_ID>) favqulodda xabar yuboradi. Qayta tiklanganda recovery alert beriladi.
 
 ---
 ### #11. hr_murojaat_standart_andozasi

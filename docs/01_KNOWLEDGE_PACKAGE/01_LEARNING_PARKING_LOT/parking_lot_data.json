@@ -154,7 +154,7 @@
     "status": "PENDING",
     "created_at": "2026-09-15 22:25:28",
     "source": "sessiya_connector",
-    "notes": "Ikkala bot (15976 vs 15850) har 25 soniyada bir-birini /api/status orqali tekshiradi. Agar birortasi 2 marta ketma-ket javob bermasa (crash/offline), tirik qolgan bot darhol adminga (7463402937) favqulodda xabar yuboradi. Qayta tiklanganda recovery alert beriladi."
+    "notes": "Ikkala bot (15976 vs 15850) har 25 soniyada bir-birini /api/status orqali tekshiradi. Agar birortasi 2 marta ketma-ket javob bermasa (crash/offline), tirik qolgan bot darhol adminga (<ADMIN_CHAT_ID>) favqulodda xabar yuboradi. Qayta tiklanganda recovery alert beriladi."
   },
   {
     "id": 11,

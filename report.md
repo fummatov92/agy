@@ -1,6 +1,6 @@
 # 📊 Server Holati, AGY Imkoniyatlari va Xavfsizlik Hisoboti
 
-Ushbu hujjat **Fayzillo Ummatov**ning shaxsiy Contabo VPS serverida (`fayzillo@vmi3346315`) tashkil etilgan **JarvisOS Core AI Engine (Antigravity CLI)** ekotizimi, ishchi imkoniyatlari va ko'p qatlamli xavfsizlik arxitekturasini to'liq ifodalaydi.
+Ushbu hujjat **Fayzillo Ummatov**ning shaxsiy Contabo VPS serverida (`fayzillo@<HOST_NAME>`) tashkil etilgan **JarvisOS Core AI Engine (Antigravity CLI)** ekotizimi, ishchi imkoniyatlari va ko'p qatlamli xavfsizlik arxitekturasini to'liq ifodalaydi.
 
 ---
 
