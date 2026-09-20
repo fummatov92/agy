@@ -1,7 +1,7 @@
-# Nurmuhammad Xatoligi Tahlili va Gemini Arxitekturasi Hisoboti
+# Korean Master Lug'at Tahlili va Gemini Arxitekturasi Hisoboti
 **Mas'ul Agent ID:** `83600370-1ece-409e-a79e-754f966f61b7`  
 **Sana:** 2026-09-15  
-**Foydalanuvchi:** Nurmuhammad (@Nurmuhammad_800 | ID: `6455909710`)  
+**Foydalanuvchi:** Developer User (`<USER_REDACTED>`)  
 **Holat:** ✅ To'liq tuzatildi va zaxira arxitekturalari joriy etildi  
 
 ---

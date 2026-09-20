@@ -64,8 +64,8 @@ Tizimda **5 bosqichli qat'iy xavfsizlik devori** o'rnatilgan:
 
 ### 4. Multi-User Sessiyalar Ajratilishi
 - Botingizda har bir foydalanuvchi alohida, mustaqil AI sessiyasiga ega:
-  - **Fayzillo (`7463402937`):** To'liq boshqaruv va Core AI Engine huquqi.
-  - **Boshqa foydalanuvchilar (masalan, Nurmuhammad `6455909710`):** Izolyatsiyalangan alohida sessiya, boshqa shaxsning xabarlari yoki fayllari ularga mutlaqo ko'rinmaydi.
+  - **Admin Foydalanuvchi:** To'liq boshqaruv va Core AI Engine huquqi.
+  - **Boshqa foydalanuvchilar:** Izolyatsiyalangan alohida sessiya, boshqa shaxsning xabarlari yoki fayllari ularga mutlaqo ko'rinmaydi.
 
 ### 5. Xato Tuzatish Protokoli (Safe Editing Protocol)
 - Xatolik yoki nosozlik yuz berganda, AI hech qachon kodni darhol o'zgartirmaydi.
