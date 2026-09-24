@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: jarvisos-hello-world
+    runtime: node
+    plan: free
+    region: frankfurt
+    rootDir: render_hello_app
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: NODE_ENV
+        value: production
