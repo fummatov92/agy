@@ -133,7 +133,6 @@ app.get('/api/ram-probe', (req, res) => {
 const path = require('path');
 const { execSync, exec } = require('child_process');
 
-const PORT = process.env.PORT || 10000;
 const AGY_BIN = path.join(__dirname, 'bin', 'agy');
 
 // Auto-restore headless OAuth token if provided via environment
