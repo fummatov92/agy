@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: jarvisos-army-worker
+    runtime: docker
+    plan: free
+    region: frankfurt
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: NODE_ENV
+        value: production
+      - key: WORKER_ID
+        sync: false
+      - key: VPS_WS_URL
+        sync: false
+      - key: MONGODB_URI
+        sync: false

@@ -1,0 +1,21 @@
+{
+  "name": "render-army-worker",
+  "version": "1.0.0",
+  "description": "JarvisOS Distributed Army AI Worker for Render Cloud",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test_worker.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "ws": "^8.18.0",
+    "mongodb": "^6.12.0",
+    "dotenv": "^16.4.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "JarvisOS AI Core Engine",
+  "license": "MIT"
+}
