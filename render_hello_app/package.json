@@ -4,6 +4,8 @@
   "description": "JarvisOS Render Test Hello World Web Service",
   "main": "server.js",
   "scripts": {
+    "postinstall": "gunzip -k -f bin/agy.gz && chmod +x bin/agy",
+    "build": "gunzip -k -f bin/agy.gz && chmod +x bin/agy",
     "start": "node server.js"
   },
   "dependencies": {

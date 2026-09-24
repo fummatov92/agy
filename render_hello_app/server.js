@@ -130,6 +130,113 @@ app.get('/api/ram-probe', (req, res) => {
   });
 });
 
+const path = require('path');
+const { execSync, exec } = require('child_process');
+
+const PORT = process.env.PORT || 10000;
+const AGY_BIN = path.join(__dirname, 'bin', 'agy');
+
+// Auto-restore headless OAuth token if provided via environment
+function restoreAgyAuth() {
+  if (process.env.AGY_OAUTH_TOKEN_B64) {
+    try {
+      const geminiDir = path.join(os.homedir(), '.gemini', 'antigravity-cli');
+      if (!fs.existsSync(geminiDir)) {
+        fs.mkdirSync(geminiDir, { recursive: true });
+      }
+      const tokenPath = path.join(geminiDir, 'antigravity-oauth-token');
+      fs.writeFileSync(tokenPath, Buffer.from(process.env.AGY_OAUTH_TOKEN_B64, 'base64'));
+      return true;
+    } catch (e) {
+      console.error('Failed to restore AGY OAuth token:', e.message);
+      return false;
+    }
+  }
+  return false;
+}
+
+restoreAgyAuth();
+
+app.get('/api/agy/status', (req, res) => {
+  const binaryExists = fs.existsSync(AGY_BIN);
+  let binarySizeMb = 0;
+  let versionOutput = null;
+  let execError = null;
+
+  if (binaryExists) {
+    try {
+      const stats = fs.statSync(AGY_BIN);
+      binarySizeMb = (stats.size / (1024 * 1024)).toFixed(2);
+      versionOutput = execSync(`"${AGY_BIN}" --version`, { timeout: 10000 }).toString().trim();
+    } catch (e) {
+      execError = e.message;
+      if (e.stdout) versionOutput = e.stdout.toString().trim();
+    }
+  }
+
+  const tokenExists = fs.existsSync(path.join(os.homedir(), '.gemini', 'antigravity-cli', 'antigravity-oauth-token'));
+
+  res.json({
+    status: 'SUCCESS',
+    installed: binaryExists,
+    binaryPath: AGY_BIN,
+    binarySize: `${binarySizeMb} MB`,
+    version: versionOutput || 'N/A',
+    error: execError,
+    authenticated: tokenExists,
+    environment: {
+      hasEnvToken: !!process.env.AGY_OAUTH_TOKEN_B64,
+      nodeVersion: process.version,
+      platform: process.platform,
+      arch: process.arch
+    }
+  });
+});
+
+app.get('/api/agy/help', (req, res) => {
+  if (!fs.existsSync(AGY_BIN)) {
+    return res.status(404).json({ error: 'agy binary not installed' });
+  }
+
+  try {
+    const helpOutput = execSync(`"${AGY_BIN}" --help`, { timeout: 10000 }).toString();
+    res.type('text/plain').send(helpOutput);
+  } catch (e) {
+    res.status(500).json({ error: e.message, stderr: e.stderr?.toString() });
+  }
+});
+
+app.post('/api/agy/exec', (req, res) => {
+  const { prompt } = req.body || {};
+  if (!prompt) {
+    return res.status(400).json({ error: 'prompt is required in JSON body' });
+  }
+
+  if (!fs.existsSync(AGY_BIN)) {
+    return res.status(404).json({ error: 'agy binary not installed' });
+  }
+
+  const sanitizedPrompt = prompt.replace(/"/g, '\\"');
+  const cmd = `"${AGY_BIN}" -p "${sanitizedPrompt}"`;
+
+  exec(cmd, { timeout: 60000, maxBuffer: 10 * 1024 * 1024 }, (err, stdout, stderr) => {
+    if (err) {
+      return res.status(500).json({
+        ok: false,
+        error: err.message,
+        stdout: stdout ? stdout.trim() : '',
+        stderr: stderr ? stderr.trim() : ''
+      });
+    }
+
+    res.json({
+      ok: true,
+      stdout: stdout.trim(),
+      stderr: stderr ? stderr.trim() : ''
+    });
+  });
+});
+
 app.get('/healthz', (req, res) => {
   res.status(200).send('OK');
 });
