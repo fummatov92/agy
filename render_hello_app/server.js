@@ -251,20 +251,70 @@ app.post('/api/agy/exec', (req, res) => {
   });
 });
 
+function getCgroupUsageMb() {
+  const v2Usage = readSystemFile('/sys/fs/cgroup/memory.current');
+  const v1Usage = readSystemFile('/sys/fs/cgroup/memory/memory.usage_in_bytes');
+  if (v2Usage) return parseFloat((parseInt(v2Usage, 10) / (1024 * 1024)).toFixed(2));
+  if (v1Usage) return parseFloat((parseInt(v1Usage, 10) / (1024 * 1024)).toFixed(2));
+  return null;
+}
+
 app.get('/api/agy/test', (req, res) => {
   const prompt = req.query.prompt || 'Respond with only the word OK';
   if (!fs.existsSync(AGY_BIN)) {
     return res.status(404).json({ error: 'agy binary not installed' });
   }
 
+  const startTime = Date.now();
+  const initialMem = process.memoryUsage();
+  const initialCgroupMb = getCgroupUsageMb();
+  
+  let peakCgroupMb = initialCgroupMb || 0;
+  let peakNodeRssMb = parseFloat((initialMem.rss / (1024 * 1024)).toFixed(2));
+
+  // Sample memory every 50ms during execution
+  const sampler = setInterval(() => {
+    const currentCgroup = getCgroupUsageMb();
+    if (currentCgroup && currentCgroup > peakCgroupMb) {
+      peakCgroupMb = currentCgroup;
+    }
+    const currentRss = parseFloat((process.memoryUsage().rss / (1024 * 1024)).toFixed(2));
+    if (currentRss > peakNodeRssMb) {
+      peakNodeRssMb = currentRss;
+    }
+  }, 50);
+
   const cmd = `"${AGY_BIN}" -p "${prompt.replace(/"/g, '\\"')}"`;
   exec(cmd, { timeout: 60000, maxBuffer: 10 * 1024 * 1024 }, (err, stdout, stderr) => {
+    clearInterval(sampler);
+    const durationMs = Date.now() - startTime;
+    const finalMem = process.memoryUsage();
+    const finalCgroupMb = getCgroupUsageMb();
+
+    const toMb = (bytes) => parseFloat((bytes / (1024 * 1024)).toFixed(2));
+
+    const initialRssMb = toMb(initialMem.rss);
+    const finalRssMb = toMb(finalMem.rss);
+
     res.json({
       ok: !err,
       exitCode: err ? err.code : 0,
-      error: err ? err.message : null,
+      durationMs,
+      prompt,
       stdout: stdout ? stdout.trim() : '',
-      stderr: stderr ? stderr.trim() : ''
+      stderr: stderr ? stderr.trim() : '',
+      ramMetrics: {
+        containerLimitMb: '512 MB',
+        initialContainerRamMb: initialCgroupMb ? `${initialCgroupMb} MB` : 'N/A',
+        peakContainerRamMb: peakCgroupMb ? `${peakCgroupMb} MB` : 'N/A',
+        finalContainerRamMb: finalCgroupMb ? `${finalCgroupMb} MB` : 'N/A',
+        agyPeakDeltaMb: peakCgroupMb && initialCgroupMb ? `+${(peakCgroupMb - initialCgroupMb).toFixed(2)} MB` : 'N/A',
+        nodeProcess: {
+          initialRss: `${initialRssMb} MB`,
+          peakRss: `${peakNodeRssMb} MB`,
+          finalRss: `${finalRssMb} MB`
+        }
+      }
     });
   });
 });
