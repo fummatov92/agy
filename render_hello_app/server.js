@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+app.use(express.json());
 
 const os = require('os');
 const fs = require('fs');
@@ -245,6 +246,24 @@ app.post('/api/agy/exec', (req, res) => {
     res.json({
       ok: true,
       stdout: stdout.trim(),
+      stderr: stderr ? stderr.trim() : ''
+    });
+  });
+});
+
+app.get('/api/agy/test', (req, res) => {
+  const prompt = req.query.prompt || 'Respond with only the word OK';
+  if (!fs.existsSync(AGY_BIN)) {
+    return res.status(404).json({ error: 'agy binary not installed' });
+  }
+
+  const cmd = `"${AGY_BIN}" -p "${prompt.replace(/"/g, '\\"')}"`;
+  exec(cmd, { timeout: 60000, maxBuffer: 10 * 1024 * 1024 }, (err, stdout, stderr) => {
+    res.json({
+      ok: !err,
+      exitCode: err ? err.code : 0,
+      error: err ? err.message : null,
+      stdout: stdout ? stdout.trim() : '',
       stderr: stderr ? stderr.trim() : ''
     });
   });
