@@ -135,23 +135,37 @@ const { execSync, exec } = require('child_process');
 
 const AGY_BIN = path.join(__dirname, 'bin', 'agy');
 
-// Auto-restore headless OAuth token if provided via environment
+// Auto-restore headless OAuth token and device profile if provided via environment
 function restoreAgyAuth() {
+  const geminiDir = path.join(os.homedir(), '.gemini', 'antigravity-cli');
+  if (!fs.existsSync(geminiDir)) {
+    fs.mkdirSync(geminiDir, { recursive: true });
+  }
+
+  let tokenRestored = false;
   if (process.env.AGY_OAUTH_TOKEN_B64) {
     try {
-      const geminiDir = path.join(os.homedir(), '.gemini', 'antigravity-cli');
-      if (!fs.existsSync(geminiDir)) {
-        fs.mkdirSync(geminiDir, { recursive: true });
-      }
       const tokenPath = path.join(geminiDir, 'antigravity-oauth-token');
       fs.writeFileSync(tokenPath, Buffer.from(process.env.AGY_OAUTH_TOKEN_B64, 'base64'));
-      return true;
+      tokenRestored = true;
     } catch (e) {
       console.error('Failed to restore AGY OAuth token:', e.message);
-      return false;
     }
   }
-  return false;
+
+  if (process.env.AGY_INSTALLATION_ID) {
+    try {
+      fs.writeFileSync(path.join(geminiDir, 'installation_id'), process.env.AGY_INSTALLATION_ID.trim());
+    } catch (e) {}
+  }
+
+  if (process.env.AGY_SETTINGS_B64) {
+    try {
+      fs.writeFileSync(path.join(geminiDir, 'settings.json'), Buffer.from(process.env.AGY_SETTINGS_B64, 'base64'));
+    } catch (e) {}
+  }
+
+  return tokenRestored;
 }
 
 restoreAgyAuth();
